@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Forward Auto",
+    "slug": "forward-auto-mobile",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1220"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "et.forward.auto",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": []
+    },
+    "ios": {
+      "bundleIdentifier": "et.forward.auto",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleDisplayName": "Forward Auto",
+        "NSFaceIDUsageDescription": "Use Face ID to protect your Forward policy and insurance documents."
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-secure-store",
+      "expo-local-authentication"
+    ]
+  }
+}
